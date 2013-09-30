@@ -11,11 +11,12 @@ body
 #topbar
 {
     height: 220px;
-    background-color: #BF7330;
+    background-color: #4f463c;
     text-align: right;
     background-image: url('pics/coffey.jpg');
     background-repeat: no-repeat;
     background-position: center bottom;
+    color: #988F76;
 }
 div a
 {
@@ -24,7 +25,7 @@ div a
 #menu
 {
     margin-top: -16px;
-    background-color: #BF7330;
+    background-color: #4f463c;
 }
 #menu ul
 {
@@ -34,37 +35,54 @@ div a
 #menu li
 {
     float: left;
-    margin-top: 9px;
+    margin-top: 6px;
     list-style-type: none;
-    border: 1px solid black;
 }
 #menu  li
 {
     list-style-type: none;
-    background-color: #A66300;
+    background-color: #786f66;
 }
 #menu li a
 {
     display: block;
-        padding: 0.25em 1em;
+    padding: 0.25em 1em;
     text-decoration: none;
+    color: #e8e5d1;
 }
-#menu li .active a
+#menu .active a
 {
-    background-color: #A66100;
+    background-color: #e8e5d1;
+    color: #988F76;
 }
 #menu li a:hover
 {
-    background-color: #BF7330;
+    background-color: #9c9084;
 }
 
 #menu li a:link 
 {
-    color:#000000;
     font-size: 17px;
 }
-
-#menu li a:visited 
+#content
 {
-    color:#000000;
+    color: #988F76;
+    background-color: #e8e5d1;
+    margin-top: -21px;
+}
+#maincontent
+{
+    float: left;
+}
+#maincontent img
+{
+    float: left;
+}
+#subcontent
+{
+    float: right;
+}
+#subcontent li a
+{
+    content: attr(href);
 }
