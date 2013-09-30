@@ -1,1 +1,70 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+body
+{
+    
+}
+#container
+{
+    max-width: 600px;
+    margin: 0 auto;
+}
+#topbar
+{
+    height: 220px;
+    background-color: #BF7330;
+    text-align: right;
+    background-image: url('pics/coffey.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+div a
+{
+    display: none;
+}
+#menu
+{
+    margin-top: -16px;
+    background-color: #BF7330;
+}
+#menu ul
+{
+    width: 600px;
+    height: 40px;
+}
+#menu li
+{
+    float: left;
+    margin-top: 9px;
+    list-style-type: none;
+    border: 1px solid black;
+}
+#menu  li
+{
+    list-style-type: none;
+    background-color: #A66300;
+}
+#menu li a
+{
+    display: block;
+        padding: 0.25em 1em;
+    text-decoration: none;
+}
+#menu li .active a
+{
+    background-color: #A66100;
+}
+#menu li a:hover
+{
+    background-color: #BF7330;
+}
+
+#menu li a:link 
+{
+    color:#000000;
+    font-size: 17px;
+}
+
+#menu li a:visited 
+{
+    color:#000000;
+}
