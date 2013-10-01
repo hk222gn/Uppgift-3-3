@@ -1,8 +1,4 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
-body
-{
-    
-}
 #container
 {
     max-width: 600px;
@@ -17,9 +13,9 @@ body
     background-image: url('pics/coffey.jpg');
     background-repeat: no-repeat;
     background-position: center bottom;
-    color: #988F76;
+    color: #e8e5d1;
     font-family: "Verdana";
-    font-size: 12px;
+    font-size: 10px;
     font-style: italic;
 }
 #menu a
@@ -35,21 +31,18 @@ body
 {
     width: 560px;
     height: 40px;
+    list-style-type: none;
+    background-color: #4f463c;
 }
 #menu li
 {
     float: left;
     margin-top: 5px;
     list-style-type: none;
-    border-left: 1px solid #786f66;
-    border-top: 1px solid #786f66;
-    border-right: 1px solid #786f66;
+    border-left: 1px outset #675E55;
+    border-top: 1px outset #675E55;
+    border-right: 1px inset #675E55;
     background-color: #786f66;
-}
-#menu  ul
-{
-    list-style-type: none;
-    background-color: #4f463c;
 }
 #menu li a
 {
@@ -85,10 +78,6 @@ body
     width: 380px;
     font-family: "Times New Roman";
 }
-#maincontent p
-{
-    font-style: "Times new roman";
-}
 #maincontent img
 {
     float: left;
@@ -99,8 +88,8 @@ body
     width: 210px;
     margin-top: 40px;
     font-family: "Verdana";
-    padding: 3px;
-    border-left: dashed 2px;
+    padding: 4px;
+    border-left: dashed 1px;
 }
 #subcontent ul
 {
