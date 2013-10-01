@@ -18,7 +18,7 @@ body
     background-position: center bottom;
     color: #988F76;
 }
-div a
+#menu a
 {
     display: none;
 }
@@ -58,6 +58,7 @@ div a
 #menu li a:hover
 {
     background-color: #9c9084;
+    color: #e8e5d1;
 }
 
 #menu li a:link 
@@ -73,6 +74,7 @@ div a
 #maincontent
 {
     float: left;
+    width: 380px;
 }
 #maincontent img
 {
@@ -81,8 +83,36 @@ div a
 #subcontent
 {
     float: right;
+    margin-left: 380px;
+    margin-top: -277px;
+    font-family: "Arial";
 }
-#subcontent li a
+#subcontent ul
 {
-    content: attr(href);
+    list-style-type: none;
+    margin-left: -20px;
+}
+#subcontent h2
+{
+    font-size: 14px;
+    color: #4f463c;
+}
+#subcontent h1
+{
+    font-size: 14px;
+    color: #4f463c;
+}
+#subcontent p
+{
+    font-size: 12px;
+    font-family: "Arial";
+}
+#subcontent a
+{
+    color: #4f463c;
+    text-decoration: none;
+}
+#bottomcontent
+{
+    clear: both;
 }
